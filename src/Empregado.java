@@ -7,8 +7,8 @@ public class Empregado extends Pessoa{
 	private double imposto;
 	
 	//construtores
-	public Empregado(int codigoSetor, int salarioBase, double imposto) {
-		super();
+	public Empregado(String nome, String endereco, String tel,int codigoSetor, int salarioBase, double imposto) {
+		super( nome, endereco, tel);
 		this.codigoSetor = codigoSetor;
 		this.salarioBase = salarioBase;
 		this.imposto = imposto;

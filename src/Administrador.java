@@ -6,8 +6,9 @@ public class Administrador extends Empregado {
 	
 	//construtores
 	
-	public Administrador(int codigoSetor, int salarioBase, double imposto, double ajudaDeCusto) {
-		super(codigoSetor, salarioBase, imposto);
+	public Administrador(String nome,String end, String tel, int codigoSetor, int salarioBase, double imposto, double ajudaDeCusto) {
+		super(nome,end,tel,
+				codigoSetor, salarioBase, imposto);
 		this.ajudaDeCusto = ajudaDeCusto;
 	}
 	

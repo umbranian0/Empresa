@@ -11,8 +11,9 @@ public class Operario extends Empregado {
 		// TODO Auto-generated constructor stub
 	}
 	
-	public Operario(int codigoSetor, int salarioBase, double imposto, double valorProducao, double comissao) {
-		super(codigoSetor, salarioBase, imposto);
+	public Operario(String nome, String end, String tel, int codigoSetor, int salarioBase, double imposto,
+			double valorProducao, double comissao) {
+		super(nome, end, tel , codigoSetor, salarioBase, imposto);
 		this.valorProducao = valorProducao;
 		this.comissao = comissao;
 	}
